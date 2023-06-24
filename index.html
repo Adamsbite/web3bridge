@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Room Allocation System</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Room Allocation System</h1>
+
+    <h2>Facilitators:</h2>
+    <div id="facilitators">
+      <label for="facilitator">Facilitator:</label>
+      <select id="facilitator">
+        <option value="">Select Facilitator</option>
+        <option value="Facilitator 1">Facilitator 1</option>
+        <option value="Facilitator 2">Facilitator 2</option>
+        <option value="Facilitator 3">Facilitator 3</option>
+        <option value="Facilitator 4">Facilitator 4</option>
+        <option value="Facilitator 5">Facilitator 5</option>
+      </select>
+      <button onclick="addFacilitator()">Add Facilitator</button>
+    </div>
+
+    <h2>Developers:</h2>
+    <div id="developers">
+      <label for="developer">Developer:</label>
+      <select id="developer">
+        <option value="">Select Developer</option>
+        <option value="Smart Contract Developer">
+          Smart Contract Developer
+        </option>
+        <option value="Frontend Developer">Frontend Developer</option>
+        <option value="Server-side Developer">Server-side Developer</option>
+      </select>
+      <button onclick="addDeveloper()">Add Developer</button>
+    </div>
+
+    <h2>Room Allocation:</h2>
+    <table id="room">
+      <tr>
+        <th>Room</th>
+        <th>Facilitator</th>
+        <th>Developers</th>
+      </tr>
+      <tr id="room1">
+        <td>Room 1</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr id="room2">
+        <td>Room 2</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr id="room3">
+        <td>Room 3</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr id="room4">
+        <td>Room 4</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr id="room5">
+        <td>Room 5</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr id="room6">
+        <td>Room 6</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>

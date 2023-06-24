@@ -1,0 +1,31 @@
+h1, h2 {
+    text-align: center;
+  }
+  
+  #facilitators, #developers {
+    margin-bottom: 50px;
+  }
+  th {
+    background-color: #ac2626;
+  } 
+  #facilitators label, #developers label {
+    font-weight: bold;
+  }
+  
+  #facilitators select, #developers select {
+    margin-right: 10px;
+    color: aqua;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    color: blue;
+  }
+  
+  th, td {
+    padding: 5px;
+    text-align: left;
+  }
+  
+ 
